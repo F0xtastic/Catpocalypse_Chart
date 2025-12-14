@@ -53,6 +53,10 @@ img {
   border-radius: 5px;
 }
 
+.tumblrico {
+float: right;
+}
+
 .list__item.is-idle .drag-handle {
   cursor: grab;
 }
