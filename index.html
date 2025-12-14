@@ -4,24 +4,36 @@
         <title>Catpocalypse Chart</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     </head>
     <body>
 
 <div class="list js-list">
-
+  <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
-    
-    <img src="images/Lark.png">
+
+    <!--SLIDESHOW-->
+   
+ <div class="w3-content w3-display-container">
+  <img class="mySlides1" src="images/Lark.png" >
+  <img class="mySlides1" src="images/Larkclothes.png" >
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+
+    <!--SLIDESHOW END-->
+
+
+
     
     <div class="charatag js-drag-handle ">
       <a href="https://sweetandsoursaws.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
       Lark Wren <br>
       6'0" <br>
-      
     </div>
 
   </div>
-
+  <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Lake.png">
@@ -33,11 +45,21 @@
     </div>
 
   </div>
-
+  <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
-    <img src="images/Charlie.png">
-    
+     <!--SLIDESHOW-->
+   
+ <div class="w3-content w3-display-container">
+  <img class="mySlides2" src="images/Charlie.png" >
+  <img class="mySlides2" src="images/Charlieclothes.png" >
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+
+    <!--SLIDESHOW END-->
+
+
     <div class="charatag js-drag-handle ">
         <a href="https://cdwalker.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
       Charlie Walker <br>
@@ -45,7 +67,7 @@
     </div>
 
   </div>
-
+  <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Devang.png">
@@ -57,7 +79,7 @@
     </div>
 
   </div>
-
+  <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Duncan.png">
@@ -69,7 +91,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Liv.png">
@@ -80,7 +102,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Lucifer.png">
@@ -92,7 +114,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/René.png">
@@ -104,7 +126,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Rook.png">
@@ -116,7 +138,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Röka.png">
@@ -128,7 +150,7 @@
     </div>
 
   </div>
-  
+    <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Sinswyn.png">
@@ -142,5 +164,30 @@
   
 </div>
     <script src="drag.js"></script> 
+
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
     </body>
 </html>
