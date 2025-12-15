@@ -83,11 +83,13 @@
 
     <!--SLIDESHOW-->
    
+    <!--SLIDESHOW-->
  <div class="w3-content w3-display-container">
-
-<img src="images/Worth.png" >
-
+  <img class="mySlides4" src="images/Worth.png" >
+  <img class="mySlides4" src="images/Worth.png" >
+  <img class="mySlides4" src="images/Worth.png" >
 </div>
+    <!--SLIDESHOW END-->
 
     <!--SLIDESHOW END-->
 
@@ -95,10 +97,52 @@
       <a href="https://sodoffyabuggers.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
       Luce Worth <br>
       6'5" <br>
+ 
+    </div>
+ <button class="w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
+
+  </div>
+<!--Duck-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
+
+    <!--SLIDESHOW-->
+ <div class="w3-content w3-display-container">
+  <img class="mySlides5" src="images/Duck.png" >
+  <img class="mySlides5" src="images/Duckclothed.png" >
+  <img class="mySlides5" src="images/Duckcat.png" >
+</div>
+    <!--SLIDESHOW END-->
+
+    <div class="charatag js-drag-handle ">
+      <a href="https://sweetandsoursaws.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
+      Duck Wren <br>
+       <br>
 
     </div>
+  <button class="w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
+  </div>
+<!--Raven-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
 
+    <!--SLIDESHOW-->
+ <div class="w3-content w3-display-container">
+  <img class="mySlides6" src="images/Raven.png" >
+  <img class="mySlides6" src="images/Ravenclothed.png" >
+  <img class="mySlides6" src="images/Raveneyes.png" >
+  <img class="mySlides6" src="images/Ravencat.png" >
+</div>
+    <!--SLIDESHOW END-->
 
+    <div class="charatag js-drag-handle ">
+      <a href="https://sweetandsoursaws.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
+      Raven Wren <br>
+       <br>
+
+    </div>
+  <button class="w3-display-left" onclick="plusDivs(-1, 5)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 5)">&#10095;</button>
   </div>
   <!--LAKE-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
@@ -204,12 +248,14 @@
 
 
 <script>
-var slideIndex = [1,1,1,1];
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+var slideIndex = [1,1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
 showDivs(1, 0);
 showDivs(1, 1);
 showDivs(1, 2);
 showDivs(1, 3);
+showDivs(1, 4);
+showDivs(1, 5);
 function plusDivs(n, no) {
   showDivs(slideIndex[no] += n, no);
 }
