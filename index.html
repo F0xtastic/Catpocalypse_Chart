@@ -34,45 +34,7 @@
   <button class="w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
   <button class="w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
   </div>
-
-    <!--CHARACTER-->
-  <div class="drag-handle js-drag-handle list__item is-idle js-item">
-
-    <!--SLIDESHOW-->
-   
- <div class="w3-content w3-display-container">
-  <img class="mySlides3" src="images/Worth.png" >
-<!-- <img class="mySlides3" src="images/Worthclothes.png" > -->
-
-</div>
-
-    <!--SLIDESHOW END-->
-
-    <div class="charatag js-drag-handle ">
-      <a href="https://sweetandsoursaws.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
-      Luce Worth <br>
-      6'5" <br>
-
-    </div>
-
-    <!--
-  <button class="w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
-  <button class="w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
--->
-  </div>
-  <!--CHARACTER-->
-  <div class="drag-handle js-drag-handle list__item is-idle js-item">
-    
-    <img src="images/Lake.png">
-    
-    <div class="charatag js-drag-handle ">
-    <a href="https://sugarcoatedmechanic.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
-      Lake Wren <br>
-      6'0" <br>
-    </div>
-
-  </div>
-  <!--CHARACTER-->
+  <!--CHARLIE-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
      <!--SLIDESHOW-->
@@ -95,7 +57,63 @@
         <button class="w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
   <button class="w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
   </div>
-  <!--CHARACTER-->
+      <!--LIV-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
+    
+    
+    <!--SLIDESHOW-->
+   
+ <div class="w3-content w3-display-container">
+  <img class="mySlides3" src="images/Liv.png" >
+  <img class="mySlides3" src="images/Liv Goth.png" >
+
+</div>
+
+    <!--SLIDESHOW END-->
+
+    <div class="charatag js-drag-handle ">
+      Liv Wren<br>
+      6'2" <br>
+    </div>
+  <button class="w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
+  </div>
+    <!--WORTH-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
+
+    <!--SLIDESHOW-->
+   
+ <div class="w3-content w3-display-container">
+
+<img src="images/Worth.png" >
+
+</div>
+
+    <!--SLIDESHOW END-->
+
+    <div class="charatag js-drag-handle ">
+      <a href="https://sodoffyabuggers.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
+      Luce Worth <br>
+      6'5" <br>
+
+    </div>
+
+
+  </div>
+  <!--LAKE-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
+    
+    <img src="images/Lake.png">
+    
+    <div class="charatag js-drag-handle ">
+    <a href="https://sugarcoatedmechanic.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
+      Lake Wren <br>
+      6'0" <br>
+    </div>
+
+  </div>
+
+  <!--DEVANG-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Devang.png">
@@ -107,7 +125,7 @@
     </div>
 
   </div>
-  <!--CHARACTER-->
+  <!--DUNCAN-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
     <img src="images/Duncan.png">
@@ -119,17 +137,7 @@
     </div>
 
   </div>
-    <!--CHARACTER-->
-  <div class="drag-handle js-drag-handle list__item is-idle js-item">
-    
-    <img src="images/Liv.png">
-    
-    <div class="charatag js-drag-handle ">
-      Liv Wren<br>
-      6'2" <br>
-    </div>
 
-  </div>
     <!--CHARACTER-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
@@ -196,11 +204,12 @@
 
 
 <script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
+var slideIndex = [1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
 showDivs(1, 0);
 showDivs(1, 1);
-
+showDivs(1, 2);
+showDivs(1, 3);
 function plusDivs(n, no) {
   showDivs(slideIndex[no] += n, no);
 }
