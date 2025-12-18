@@ -32,7 +32,7 @@ const characters = [
   },
   {
     name: "Raven&nbsp;Wren",
-    images: ["Raven.png", "Raveneyes.png","RavenClothed.png", "RavenCat.png"],
+    images: ["Raven.png", "RavenEyes.png","RavenClothed.png", "RavenCat.png"],
     height: "4'0\"",
     link: "https://sweetandsoursaws.tumblr.com/",
 
