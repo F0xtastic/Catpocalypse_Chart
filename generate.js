@@ -142,7 +142,7 @@ characters.forEach(character => {
     const clone = template.content.cloneNode(true);
   
   clone.querySelector(".label").innerHTML =
-    `${character.name}<br>Height: ${character.height}`;
+    `<h1>${character.name}</h1><br>Height: ${character.height}`;
 
   clone.querySelector(".link").href = character.link;
 

@@ -41,6 +41,14 @@ body {
   will-change: transform;
 }
 
+.label h1 {
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
 img {
   border-radius: 8px;
   padding: 5px;
@@ -58,13 +66,14 @@ float: right;
 
 .link {
   float: right;
-  margin-top: -50px;
+  margin-top: -35px;
 }
 
 .slidebutton {
   display: flex;
   justify-content: space-between;
   position: relative;
+  height: 30px;
 }
 
 .slidebutton1 {
@@ -84,6 +93,7 @@ float: right;
 .charatag {
   pointer-events: none;
   min-width: 200px;
+  margin-top: -80px;
 }
 
 .label {
@@ -94,9 +104,10 @@ button {
   cursor: pointer;
   max-width: 50%;
   min-width: 30px;
-  background-color: rgba(255, 151, 0, 0.51);
+  background-color: rgba(41, 27, 48, 0);
   border-radius: 10px;
-  border-color: rgba(255, 151, 0, 0.51);
+  border-color: rgba(41, 27, 48, 0);
+  color: white;
   
 }
 
