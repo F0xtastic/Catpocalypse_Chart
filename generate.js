@@ -5,7 +5,7 @@ const characters = [
   {
     name: "Lark Wren",
     height: "6'0\"",
-    images: ["Lark.png", "LarkClothed.png", "LarkClothed1.png"],
+    images: ["Lark.png", "LarkClothed.png", "LarkClothed1.png", "LarkHuman.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
   },
@@ -26,13 +26,13 @@ const characters = [
   {
     name: "Duck Wren",
     height: "",
-    images: ["Duck.png", "DuckClothed.png", "DuckCat.png"],
+    images: ["Duck.png", "DuckClothed.png", "DuckCat.png", "DuckHuman.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
   },
   {
     name: "Raven&nbsp;Wren",
-    images: ["Raven.png", "RavenEyes.png","RavenClothed.png", "RavenCat.png"],
+    images: ["Raven.png", "RavenEyes.png","RavenClothed.png", "RavenCat.png", "RavenHuman.png"],
     height: "4'0\"",
     link: "https://sweetandsoursaws.tumblr.com/",
 
@@ -40,7 +40,7 @@ const characters = [
   {
     name: "Goose Wren",
     height: "",
-    images: ["GooseClothed.png", "GooseCat.png"],
+    images: ["Goose.png", "GooseClothed.png", "GooseCat.png", "GooseHuman.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
   },
