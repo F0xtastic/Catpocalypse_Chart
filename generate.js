@@ -92,8 +92,14 @@ const characters = [
   },
   {
     name: "Lux Imperator",
-    height: "",
+    height: "3'0\"",
     images: ["LuxClothed.png"],
+    link: "https://luximperator.tumblr.com/"
+  },
+  {
+    name: "Mr. Ring-a-Ding",
+    height: "6'0\"",
+    images: ["RADClothed.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
