@@ -99,7 +99,7 @@ const characters = [
   {
     name: "Mr. Ring-a-Ding",
     height: "6'0\"",
-    images: ["RAClothed.png"],
+    images: ["RadClothed.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
