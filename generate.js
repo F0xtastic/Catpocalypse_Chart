@@ -12,7 +12,7 @@ const characters = [
   {
     name: "Lake Wren",
     height: "6'0\"",
-    images: ["Lake.png"],
+    images: ["Lake.png, LakeClothed.png"],
     link: "https://sugarcoatedmechanic.tumblr.com/",
  
   },
