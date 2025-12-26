@@ -8,8 +8,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,6 +20,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
+  background-attachment: fixed;
 }
 
 .list {
