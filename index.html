@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Catpocalypse</title>
+<head>
+        <title>Home</title>
         <meta charset="utf-8">
         <link rel="icon" type="image/x-icon" href="./images/LarkFavicon.png">
-        <link rel="stylesheet" href="style.css">
-        <script src="generate.js" defer></script>
-     <script src="slideshow.js" defer></script>
-        <script src="drag.js" defer></script> 
-    </head>
-    <body>
-
-<div id="chart" class="list js-list">
-
-<template id="character-template">
-  <div class="character, list__item is-idle js-item">
-    <div class="slides js-drag-handle"></div>
-    <div class="description-container">
-      <div class="slidebutton"></div>
-      <div class="charatag js-drag-handle">
-      </div>
-
-      <div class="label"></div>
-    </div>
-    <a class="link"><img src="images/tumblr.svg" width="30"></a>
-    
-
-  </div>
-</template>
-
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/home.css">
+        <script src="/assets/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<div id="homenav">
+  <div id="navigation"></div>
 </div>
 
+ 
+  
 
+<script>
+  $(function() {
+    $("#navigation").load("navigation.html");
+});
+</script>
 
-
-
-
-    </body>
+</body>
 </html>

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  height: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg,rgb(255, 131, 15) 0%,  rgb(83, 33, 124) 100%);
+  background-attachment: fixed;
+}
+
+#navigation {
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#homenav ul {
+  display: block;
+  width: 200px;
+}
+
+#homenav li a {
+  text-transform: uppercase;
+  background-color: rgba(72, 77, 122, 0.747);
+}
+
+/* Change the link and background color on hover */
+#homenav li a:hover {
+  background-color: #202020be;
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Werecats</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="./images/LarkFavicon.png">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/werecat.css">
+        <script src="/assets/js/jquery-3.7.1.min.js"></script>
+        <script src="/assets/js/tabs.js"></script>
+</head>
+<body>
+    <div id="navigation"></div>
+
+<div id="wrapper">
+    <h1>Werecats</h1>
+    <p>Werecats are a species of bipedal cat people with limited shapeshifting ability. Unlike the classic werewolf, the type of werecat described here is not effected by the moon, nor can they infect others. These werecats are simply humanoid cats.</p>
+
+    <h2>Shapeshifting</h2>
+    <p>Werecats can shapeshift to a few different forms, but generally they will default to their werecat form. Shapeshifting into other forms is a matter of skill and instinct, and may be easier for some werecats than for others.</p>
+
+    <!-- Tab links -->
+    <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Werecat')">Werecat</button>
+    <button class="tablinks" onclick="openCity(event, 'Housecat')">Housecat</button>
+    <button class="tablinks" onclick="openCity(event, 'Human')">Human</button>
+    <button class="tablinks" onclick="openCity(event, 'Neko')">Neko</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="Werecat" class="tabcontent">
+    <h3>Werecat</h3>
+     <p>The classic werecat is an anthropomorphic cat and can do everything a human can do and more. This is the default form of a werecat, and for most werecat's it's difficult to maintain other forms long-term. A werecat will likely revert to this form if knocked unconscious.</p>
+    <ul>
+        <li>Retractible claws</li>
+        <li>Great night-vision</li>
+        <li>Above-average senses</li>
+        <li>Sharp fangs</li>
+        <li>Increased affinity for magic</li>
+    </ul>
+    </div>
+
+    <div id="Housecat" class="tabcontent">
+    <h3>Housecat</h3>
+     <p>Werecats can shapeshift into a domestic cat. When in cat form, they will instinctively know how to walk on all fours and perform typical cat behaviors, and instincts may be stronger, though typically this will not result in the werecat losing their higher faculties, except perhaps in short bursts.</p>
+    <ul>
+        <li>Cannot speak human language</li>
+        <li>Can communicate with some animals</li>
+        <li>No thumbs, but more coordinated than a normal cat</li>
+        <li>It’s possible to get cat-brained, usually temporarily</li>
+        <ul><li>Might have the instinct to catch mice or birds etc</li></ul>
+        <li>A werecat may involuntarily shapeshift into a housecat when surprised/scared</li>
+    </ul>
+
+    </div>
+
+    <div id="Human" class="tabcontent">
+    <h3>Human</h3>
+    <p>Werecats typically have a human form, though this can also be other species such as demon, angel, alien species, etc. It is very rare for a werecat to default to their human/non-werecat form, though it is possible with a lot of practice/determination, or in cases where they're hybridized with a species that's more genetically dominant.</p>
+    <ul>
+        <li>Improved senses may be lost in human form</li>
+        <li>Cat instincts are dulled</li>
+        <li>May revert to werecat if knocked unconscious</li>
+    </ul>
+    </div> 
+
+    <div id="Neko" class="tabcontent">
+    <h3>Neko</h3>
+    <p>It is unusual, but not impossible, for a werecat to have a partially shifted form, such as a human form with cat ears and tail and nothing else. This could involve any variety of mixed cat and human/humanoid features.</p>
+    <p>It's more likely for a werecat to default to neko than to pure human/humanoid.</p>
+    </div> 
+
+    <h3>Shapeshifting Physics</h3>
+    <ul>
+        <li><b>Injuries</b> acquired in one form will also be present in another, with the exception of anything that happens to a tail, which will obviously not apply when shapeshifted to human form.</li>
+        <li><b>Scars</b> are visible in all forms, though on a cat it may be hidden under fur.</li>
+        <ul>
+            <li>Fur will typically, but not always, grow back over scars.</li>
+            <li>Fur may grow back over a scar in a lighter color.</li>
+        </ul>
+        <li><b>Clothing/possessions</b> that cannot be worn by a cat will go into hammerspace when shifting from human/werecat to a housecat, which is to say it's magically stored elsewhere until they shapeshift again.</li>
+        <li><b>Shoes and socks</b> may also go into hammerspace when shapeshifting from human to werecat, as most shoes won't fit on werecat paws. </li>
+    </ul>
+    
+</div>
+
+
+
+  
+<script>
+  $(function() {
+    $("#navigation").load("navigation.html");
+});
+</script>
+
+</body>
+</html>
