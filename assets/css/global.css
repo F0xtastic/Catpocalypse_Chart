@@ -17,9 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
-    background-attachment: fixed;
-
+  background-color: rgb(226, 237, 243);
 }
 
 .nav ul {
@@ -63,4 +61,12 @@ body {
 /* Change the link and background color on hover */
 .nav li a:hover {
   color: #ffa600;
+}
+
+/* larger screens */
+@media only screen and (min-width: 700px) {
+body {
+  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
+    background-attachment: fixed;
+}
 }
