@@ -15,8 +15,7 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
   background-color: rgb(226, 237, 243);
 }
 
@@ -49,13 +48,28 @@ body {
 
 #wrapper {
     display: block;
-    margin: auto;
     margin-top: 10px;
-    max-width: 600px;
     padding: 20px;
     background-color:rgba(23, 25, 44, 0.76);
     color: white;
     border-radius: 20px;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flexrow {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* Change the link and background color on hover */
@@ -63,10 +77,12 @@ body {
   color: #ffa600;
 }
 
+
 /* larger screens */
 @media only screen and (min-width: 700px) {
-body {
-  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
-    background-attachment: fixed;
+  body {
+    background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
+      background-attachment: fixed;
+  }
 }
-}
+
