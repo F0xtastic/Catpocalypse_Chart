@@ -154,7 +154,7 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
 }
 
 /* larger screens */
-@media only screen and (min-width: 451px) {
+@media only screen and (min-width: 500px) {
 body {
   background: linear-gradient(0deg,rgb(255, 131, 15) 0%,  rgb(83, 33, 124) 100%);
   background-attachment: fixed;
