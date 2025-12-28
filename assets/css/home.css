@@ -14,7 +14,9 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
+body {
+  background-color: rgb(83, 33, 124);
+}
 
 #homewrapper {
     display: block;
