@@ -13,36 +13,120 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
-  height: 100%;
+background: linear-gradient(0deg,rgb(255, 131, 15) 0%,  rgb(83, 33, 124) 100%);
+background-attachment: fixed;
+}
+#homewrapper {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 960px;
+    padding: 20px;
+    background-color:rgba(23, 25, 44, 0.123);
+    border-radius: 20px;
+}
+
+.flexcolumn {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(0deg,rgb(255, 131, 15) 0%,  rgb(83, 33, 124) 100%);
-  background-attachment: fixed;
+  gap: 10px;
+}
+
+.flexrow {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 #navigation {
     display: block;
-    margin: auto;
     border-radius: 30px;
-    width: 75%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color:white;
+    width: 300px;
+    height: 300px;
+}
+#topbox {
+    display: block;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0);
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+.card {
+    display: block;
+    border-radius: 30px;
+    background-color:rgba(255, 153, 0, 0.116);
+    width: 300px;
+    padding: 15px;
+    text-align: justify;
 }
 
-#homenav ul {
-  display: block;
-  width: 200px;
-}
 
-#homenav li a {
+.homenav a {
   text-transform: uppercase;
-  background-color: rgba(72, 77, 122, 0.747);
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 5px;
+  text-align:center;
 }
 
-/* Change the link and background color on hover */
-#homenav li a:hover {
-  background-color: #202020be;
 
+
+/* FOXTASTIC TITLE */
+@font-face {
+  font-family: lobster;
+  src: url(/assets/fonts/lobster/Lobster-Regular.ttf); 
 }
+.circle {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background: #ff9900ad;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #ffedc6;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -350px;
+-webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #e9b300, 2px 2px #e99f00, 3px 3px #e98400, 4px 4px #e97100, 5px 5px #e97100, 6px 6px #e97100, 7px 7px #e95500, 8px 8px #e95500, 9px 9px #e94200c7, 10px 10px #e9360086, 11px 11px #e9000050, 12px 12px #e9002781, 13px 13px #e9004e52, 14px 14px #e9006d31;
+}
+
+h2 {
+  color:#ffae00;
+  text-shadow:2px 2px rgba(83, 33, 124, 0.445);
+}
+
+h2:hover {
+  color:#ffffff
+}
+
+p {
+  color: rgb(255, 222, 195);
+  text-shadow: 1px 1px rgba(83, 33, 124, 0.445);
+  font-weight:600;
+}
+span:nth-child(3), span:nth-child(7) { 
+font-size: 60px;
+}
+
+span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
+  font-size: 110px;
+}
+
