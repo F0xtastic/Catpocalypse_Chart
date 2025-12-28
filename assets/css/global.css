@@ -83,14 +83,19 @@ body {
     padding: 20px;
     border-radius: 0px;
     width: 100%;
-    box-sizing:initial;
+
 }
 #navigation {
     display: block;
     border-radius: 0px;
     width: 100%;
-    box-sizing: initial;
+
 }
+.nav li a {
+  padding: 8px 0px;
+  font-size: 3vw;
+}
+
 
 }
 /* larger screens */
