@@ -130,3 +130,24 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
   font-size: 110px;
 }
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  .circle {
+  margin: auto;
+  height: 70vw;
+  width: 70vw;
+  border-radius: 100%;
+  background: #ff9900ad;
+}
+  h1 {
+  line-height: 40px;
+  margin-top: -350px;
+  -webkit-transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  -o-transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  -ms-transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+}
+}
+
