@@ -77,6 +77,13 @@ const characters = [
     link: "https://actualtirefire.tumblr.com/"
   },
   {
+    name: "Hennessy",
+    height: "6'0\"",
+    images: ["HennessyClothed.png", "Hennessy.png"],
+    link: "https://sweetandsoursaws.tumblr.com/",
+
+  },
+  {
     name: "Viktor Dresden",
     height: "6'4\"",
     breed: "flame point siamese",
