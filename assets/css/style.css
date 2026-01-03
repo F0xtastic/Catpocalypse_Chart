@@ -79,7 +79,7 @@ body {
  Hamburger menu
 ***********************/
 .off-screen-menu {
-  background-color: #5e3827;
+  background-color: #281B17;
   height: 100%;
   width: 100vw;
   max-height: 100vh;
@@ -90,7 +90,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   transition: 0.3s ease;
   z-index: 10;
 }
@@ -205,37 +205,6 @@ section p {
 /**********************
   background elements blog
 ***********************/
-.orange-header {
-  background-color: #fbb268;
-  background-position: center center;
-}
-.orange-header h1 {
-  font-family: archivoBlack;
-  color: black;
-  font-size: 75px;
-  margin: 0;
-  position: absolute;
-  top: 195px;
-}
-.orange-header h2 {
-  font-family: boogaloo;
-  color: white;
-  font-size: 50px;
-  margin: 0;
-  position: absolute;
-  top: 160px;
-}
-.orange-header h3 {
-  font-family: annieTelescope;
-  color: white;
-  font-size: 35px;
-  margin: 0;
-  position: relative;
-  top: 75px;
-  left: -245px;
-  transform: rotate(335deg);
-}
-
 .orange-left {
   position: absolute;
   top: 0;
@@ -266,13 +235,6 @@ section p {
   width: 100vw;
 }
 
-.calicolite {
-  background-image: url(../images/calicolite-tile.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-}
-
 .di-serria {
   background: #D58543;
   color: black;
@@ -287,51 +249,8 @@ section p {
   width: 100vw;
 }
 
-.z1-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 95%;
-  width: 20vw;
-  z-index: 1;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-
-.z2-left {
-  position: absolute;
-  top: 100;
-  left: 0;
-  height: 70%;
-  width: 15vw;
-  z-index: 2;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-
-.z1-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 40vw;
-  z-index: 1;
-  padding-bottom: 20px;
-}
-
-.z2-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 95%;
-  width: 30vw;
-  z-index: 2;
-  padding-bottom: 20px;
-}
-
 #topbar {
-  background-image: url(../images/Brown-topbar.svg);
-  background-size: 100vw 100%;
+  background-size: 100% 100%;
   height: 100px;
   width: 100vw;
   position: absolute;
@@ -348,7 +267,8 @@ section p {
 }
 
 .coffee {
-  background: #5e3827;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: white;
 }
 
@@ -436,11 +356,99 @@ section p {
     padding: 8px 0px;
     font-size: 3vw;
   }
+  .coffee {
+    background-image: url(../images/mobile-spotty-bg.svg);
+  }
+  .calicolite {
+    background-image: url(../images/mobile-tabby-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: black;
+  }
+  #topbar {
+    background-image: url(../images/mobile-Brown-topbar.svg);
+  }
+  .orange-header {
+    background-color: #fbb268;
+    background-position: center center;
+  }
+  .orange-header h1 {
+    font-family: archivoBlack;
+    color: black;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 195px;
+  }
+  .orange-header h2 {
+    font-family: boogaloo;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    position: absolute;
+    top: 160px;
+  }
+  .orange-header h3 {
+    font-family: annieTelescope;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    position: relative;
+    top: 75px;
+    left: -150px;
+    transform: rotate(335deg);
+  }
+  section {
+    padding: 10px 10px;
+  }
 }
 /* larger screens */
 @media only screen and (min-width: 700px) {
   .gradient {
     background: linear-gradient(0deg, rgb(59, 64, 110) 0%, rgb(216, 238, 250) 100%);
     background-attachment: fixed;
+  }
+  .coffee {
+    background-image: url(../images/spotty-bg.svg);
+    background-color: #5e3827;
+  }
+  .calicolite {
+    background-image: url(../images/tabby-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: black;
+  }
+  #topbar {
+    background-image: url(../images/Brown-topbar.svg);
+  }
+  .orange-header {
+    background-color: #fbb268;
+    background-position: center center;
+  }
+  .orange-header h1 {
+    font-family: archivoBlack;
+    color: black;
+    font-size: 75px;
+    margin: 0;
+    position: absolute;
+    top: 195px;
+  }
+  .orange-header h2 {
+    font-family: boogaloo;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 160px;
+  }
+  .orange-header h3 {
+    font-family: annieTelescope;
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+    top: 75px;
+    left: -245px;
+    transform: rotate(335deg);
   }
 }/*# sourceMappingURL=style.css.map */
