@@ -206,7 +206,8 @@ nav {
         max-height: 350px;
         }
     &.mini-bc {
-        max-width: 200px;
+        width: 200px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -215,6 +216,7 @@ nav {
         border-bottom: 10px solid #FFEF9D;
         }
 }
+
 /**********************
     Blog section
 ***********************/
