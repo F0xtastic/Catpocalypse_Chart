@@ -33,6 +33,7 @@ $tabby: #D58543;
 
 /* Colors */
 $warm-bright: #ffa600;
+$bright-purple: rgb(133, 52, 187);
 $gradient1: rgb(59, 64, 110);
 $gradient2: rgb(216, 238, 250);
 $dark-bg: rgba(39, 41, 63, 0);
@@ -203,7 +204,6 @@ nav {
     img {
         display:block;
         margin: auto;
-        max-height: 350px;
         }
     &.mini-bc {
         width: 200px;
@@ -316,6 +316,7 @@ section {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
 
 }
 
@@ -325,21 +326,42 @@ section {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 5px;
+  
   max-width: 500px;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+
 }
 
 .modal-button {
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, .25);
+    transition: 0.5s;
+    
     cursor: pointer;
-    h2, img {
-        pointer-events: none;
+
+    h2, img {pointer-events: none;}
+
+    h2 {
+        position:absolute;
+        visibility: hidden;
+        color: black;
+        padding: 10px;
+        background-color: $rajah;
+        border-radius: 100px;
+        box-shadow: 3px 3px 0px rgba(0, 0, 0, .25);
     }
+
     &:hover {
-        border-color: rgb(168, 70, 233);
+        border-color: $bright-purple;
         color: $extra-dark;
+        margin-top: -10px;
+        h2 {
+            visibility: visible;
+        }
     }
 }
 /* The Close Button */
