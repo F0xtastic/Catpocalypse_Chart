@@ -29,6 +29,7 @@ $sepia-skin: #a3683d;
 $di-serria: #d99658;
 $rajah: #fbb268;
 $tabby: #D58543;
+$butter: #FFEF9D;
 
 
 /* Colors */
@@ -212,8 +213,7 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: white;
-        border-bottom: 10px solid #FFEF9D;
+        background-color: $butter;
         }
 }
 
@@ -314,9 +314,6 @@ section {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  
 
 }
 
@@ -347,16 +344,18 @@ section {
 
     h2 {
         position:absolute;
+        bottom: 15px;
         visibility: hidden;
-        color: black;
+        color: white;
         padding: 10px;
-        background-color: $rajah;
-        border-radius: 100px;
+        background-color: #712a927c;
+        border-radius: 10px;
+        width: 200px;
+        text-align:center;
         box-shadow: 3px 3px 0px rgba(0, 0, 0, .25);
     }
 
     &:hover {
-        border-color: $bright-purple;
         color: $extra-dark;
         margin-top: -10px;
         h2 {
